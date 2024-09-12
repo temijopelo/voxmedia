@@ -310,3 +310,119 @@ footer .icons ul li a:hover,
 .footer_link ul li a:hover {
   opacity: 9;
 }
+
+@media screen and (max-width: 800px) {
+  .nav-bar {
+    display: flex;
+  }
+  .logo,
+  .nav-links {
+    position: relative;
+  }
+
+  .logo {
+    width: 150px;
+    left: 0;
+  }
+
+  .nav-links {
+    display: none;
+  }
+
+  .landing_block {
+    display: none;
+  }
+
+  button.prev,
+  button.next {
+    display: none;
+  }
+
+  .container {
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  .array_logo {
+    width: 400px;
+    margin: 0;
+    padding: 40px 0;
+  }
+
+  .array_logo img {
+    width: 90vw;
+    padding: 0;
+  }
+
+  .third-layer .text {
+    padding: 0px;
+    margin: 0;
+  }
+
+  hr {
+    display: none;
+  }
+
+  .first_container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .first_container_text {
+    display: none;
+  }
+
+  .second_container_img,
+  .third_container_img {
+    display: none;
+  }
+
+  .fourth-layer .first_container .first_container_text,
+  .fourth-layer .third_container .third_container_text {
+    position: relative;
+    width: 100%;
+    margin: auto;
+  }
+  .second_container {
+    margin-bottom: 50px;
+  }
+
+  .third_container {
+    margin-top: 100px;
+  }
+
+  .fourth-layer .first_container .first_container_img img,
+  .fourth-layer .third_container .third_container_img video {
+    width: 70%;
+  }
+
+  .fourth-layer .second_container .second_container_text {
+    position: relative;
+    width: 100%;
+  }
+
+  .footer_link ul li {
+    margin-right: 5px;
+    font-size: 12px;
+  }
+
+  .second-layer .text h4 {
+    font-weight: 600;
+    margin-top: 50px;
+    margin-bottom: 15px;
+  }
+
+  .third-layer .text .first_p,
+  .third-layer .text .second_p {
+    width: 100%;
+    font-size: 14px;
+    margin-right: 0;
+  }
+
+  .fourth-layer .first_container .first_container_img,
+  .fourth-layer .third_container .third_container_img {
+    position: relative;
+    width: 100%;
+  }
+}
